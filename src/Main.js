@@ -1,6 +1,7 @@
 import React from 'react';
 import { navigateTo } from './helpers';
 import searchIcon from './icons/search.svg';
+import * as BooksAPI from './BooksAPI';
 import Shelf from './Shelf';
 
 const SHELVES = [
@@ -19,8 +20,35 @@ const SHELVES = [
 ];
 
 export default class Main extends React.Component {
+  state = {
+    books: [],
+    isLoading: true
+  };
+
+  componentDidMount () {
+    BooksAPI.getAll().then(books => this.setState(state => ({
+      ...state,
+      books,
+      isLoading: false
+    })));
+  }
+
+  handleShelfChange = (bookId, shelfSlug) => {
+    // optimistic update
+    this.setState(state => {
+      return {
+        ...state,
+        books: state.books.map(book =>
+          book.id === bookId
+            ? { ...book, shelf: shelfSlug }
+            : book)
+      };
+    });
+
+    BooksAPI.update(bookId, shelfSlug);
+  }
   render () {
-    const { books } = this.props;
+    const { books, isLoading } = this.state;
 
     return (
       <div className='list-books'>
@@ -33,7 +61,7 @@ export default class Main extends React.Component {
             { SHELVES.map(shelf => {
               const booksForShelf = books.filter(book => book.shelf === shelf.slug);
 
-              return <Shelf key={shelf.slug} shelf={shelf} books={booksForShelf} />;
+              return <Shelf books={booksForShelf} isLoading={isLoading} key={shelf.slug} onShelfChange={this.handleShelfChange} shelf={shelf} />;
             })}
           </div>
         </div>
