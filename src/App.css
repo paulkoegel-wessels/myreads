@@ -1,4 +1,4 @@
-html, body, .root {
+html, body, #root, .app {
   height: 100%;
 }
 body {
@@ -54,13 +54,19 @@ body, .app {
   height: 50px;
   border-radius: 50%;
   background: #2e7d32;
-  background-image: url('./icons/add.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 28px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  font-size: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
+.open-search a img {
+  width: 30px;
+}
+
 
 /* search page */
 
@@ -97,6 +103,7 @@ body, .app {
   background-repeat: no-repeat;
   background-size: 28px;
   font-size: 0;
+  cursor: pointer;
 }
 
 .search-books-results {
