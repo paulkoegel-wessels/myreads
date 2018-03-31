@@ -1,8 +1,42 @@
 import React from 'react';
 import { navigateTo } from './helpers';
+import * as BooksAPI from './BooksAPI';
+import Book from './Book';
 
 export default class Search extends React.Component {
+  state = {
+    books: [],
+    error: null,
+    searchTerm: ''
+  };
+
+  handleSearchTermChange = searchTerm => {
+    this.setState(state => ({ ...state, searchTerm }));
+    BooksAPI.search(searchTerm).then(response => {
+      if (response && !response.error) {
+        this.setState(state => ({ ...state, books: response, error: null }));
+      } else {
+        this.setState(state => ({ ...state, error: (response && response.error) || 'Response is undefined' }));
+      }
+    });
+  }
+
+  handleShelfChange = (bookId, shelfSlug) => {
+    this.setState(state => {
+      return {
+        ...state,
+        books: state.books.map(book =>
+          book.id === bookId
+            ? { ...book, shelf: shelfSlug }
+            : book)
+      };
+    });
+
+    BooksAPI.update(bookId, shelfSlug);
+  }
+
   render () {
+    const { books, error, searchTerm } = this.state;
     return (
       <div className='search-books'>
         <div className='search-books-bar'>
@@ -16,12 +50,22 @@ export default class Search extends React.Component {
             However, remember that the BooksAPI.search method DOES search by title or author. So, don't worry if
             you don't find a specific author or title. Every search is limited by search terms.
           */}
-            <input type='text' placeholder='Search by title or author' />
-
+            <input
+              onChange={e => this.handleSearchTermChange(e.target.value)}
+              placeholder='Search by title or author'
+              type='text'
+              value={searchTerm} />
           </div>
         </div>
         <div className='search-books-results'>
-          <ol className='books-grid' />
+          { error
+            ? `No results. (Error message from server: ${error})`
+            : <ol className='books-grid'>
+              { books.map(book =>
+                <Book book={book} key={book.id} onShelfChange={this.handleShelfChange} />
+              )}
+            </ol>
+          }
         </div>
       </div>
     );
