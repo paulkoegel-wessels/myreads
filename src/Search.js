@@ -2,6 +2,7 @@ import React from 'react';
 import { navigateTo } from './helpers';
 import * as BooksAPI from './BooksAPI';
 import Book from './Book';
+import debounce from 'lodash.debounce';
 
 export default class Search extends React.Component {
   state = {
@@ -10,15 +11,10 @@ export default class Search extends React.Component {
     searchTerm: ''
   };
 
-  handleSearchTermChange = searchTerm => {
+  handleSearchTermChange = event => {
+    const searchTerm = event.target.value;
     this.setState(state => ({ ...state, searchTerm }));
-    BooksAPI.search(searchTerm).then(response => {
-      if (response && !response.error) {
-        this.setState(state => ({ ...state, books: response, error: null }));
-      } else {
-        this.setState(state => ({ ...state, error: (response && response.error) || 'Response is undefined' }));
-      }
-    });
+    this.searchBooks(searchTerm);
   }
 
   handleShelfChange = (bookId, shelfSlug) => {
@@ -34,6 +30,16 @@ export default class Search extends React.Component {
 
     BooksAPI.update(bookId, shelfSlug);
   }
+
+  searchBooks = debounce((searchTerm) => {
+    BooksAPI.search(searchTerm).then(response => {
+      if (response && !response.error) {
+        this.setState(state => ({ ...state, books: response, error: null }));
+      } else {
+        this.setState(state => ({ ...state, error: (response && response.error) || 'Response is undefined' }));
+      }
+    });
+  }, 300);
 
   render () {
     const { books, error, searchTerm } = this.state;
@@ -51,7 +57,7 @@ export default class Search extends React.Component {
             you don't find a specific author or title. Every search is limited by search terms.
           */}
             <input
-              onChange={e => this.handleSearchTermChange(e.target.value)}
+              onChange={this.handleSearchTermChange}
               placeholder='Search by title or author'
               type='text'
               value={searchTerm} />
