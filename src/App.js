@@ -2,17 +2,17 @@ import './App.css';
 import React from 'react';
 import Main from './Main';
 import Search from './Search';
+import { Route } from 'react-router-dom';
 
-class BooksApp extends React.Component {
+class App extends React.Component {
   render () {
     return (
       <div className='app'>
-        { window.location.pathname === '/search'
-          ? <Search />
-          : <Main />}
+        <Route path='/' exact component={Main} />
+        <Route path='/search' component={Search} />
       </div>
     );
   }
 }
 
-export default BooksApp;
+export default App;

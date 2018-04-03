@@ -1,5 +1,5 @@
 import React from 'react';
-import { navigateTo } from './helpers';
+import { Link } from 'react-router-dom';
 import * as BooksAPI from './BooksAPI';
 import Book from './Book';
 import debounce from 'lodash.debounce';
@@ -64,7 +64,7 @@ export default class Search extends React.Component {
     return (
       <div className='search-books'>
         <div className='search-books-bar'>
-          <a className='close-search' onClick={() => navigateTo('/')}>Close</a>
+          <Link className='close-search' to='/'>Close</Link>
           <div className='search-books-input-wrapper'>
             <input
               onChange={this.handleSearchTermChange}
