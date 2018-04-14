@@ -1,6 +1,6 @@
 {
   "name": "my-reads",
-  "license": "MIT",
+  "license": "unlicensed",
   "version": "1.0.0",
   "dependencies": {
     "lodash.debounce": "^4.0.8",
