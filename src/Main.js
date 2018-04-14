@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import searchIcon from './icons/search.svg';
-import * as BooksAPI from './BooksAPI';
 import Shelf from './Shelf';
 
 const SHELVES = [
@@ -20,35 +19,8 @@ const SHELVES = [
 ];
 
 export default class Main extends React.Component {
-  state = {
-    books: [],
-    isLoading: true
-  };
-
-  componentDidMount () {
-    BooksAPI.getAll().then(books => this.setState(state => ({
-      ...state,
-      books,
-      isLoading: false
-    })));
-  }
-
-  handleShelfChange = (bookId, shelfSlug) => {
-    // optimistic update
-    this.setState(state => {
-      return {
-        ...state,
-        books: state.books.map(book =>
-          book.id === bookId
-            ? { ...book, shelf: shelfSlug }
-            : book)
-      };
-    });
-
-    BooksAPI.update(bookId, shelfSlug);
-  }
   render () {
-    const { books, isLoading } = this.state;
+    const { myBooks, onShelfChange } = this.props;
 
     return (
       <div className='list-books'>
@@ -59,9 +31,8 @@ export default class Main extends React.Component {
         <div className='list-books-content'>
           <div>
             { SHELVES.map(shelf => {
-              const booksForShelf = books.filter(book => book.shelf === shelf.slug);
-
-              return <Shelf books={booksForShelf} isLoading={isLoading} key={shelf.slug} onShelfChange={this.handleShelfChange} shelf={shelf} />;
+              const booksForShelf = myBooks.filter(book => book.shelf === shelf.slug);
+              return <Shelf books={booksForShelf} key={shelf.slug} onShelfChange={onShelfChange} shelf={shelf} />;
             })}
           </div>
         </div>
