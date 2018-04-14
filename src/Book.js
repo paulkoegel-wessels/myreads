@@ -7,7 +7,7 @@ export default class Book extends React.Component {
       <li>
         <div className='book'>
           <div className='book-top'>
-            <div className='book-cover' style={{ width: 128, height: 193, backgroundImage: `url("${book.imageLinks.thumbnail})` }} />
+            <div className='book-cover' style={{ width: 128, height: 193, backgroundImage: `url("${book.imageLinks && book.imageLinks.thumbnail})` }} />
             <div className='book-shelf-changer'>
               <select onChange={event => onShelfChange(book.id, event.target.value)} value={book.shelf || 'none'}>
                 <option value='none' disabled>Move to...</option>
