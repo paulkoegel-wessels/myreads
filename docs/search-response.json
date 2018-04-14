@@ -1,0 +1,881 @@
+{
+  "books": [
+    {
+      "title": "Artificial Intelligence",
+      "subtitle": "A Modern Approach",
+      "authors": [
+        "Stuart Jonathan Russell",
+        "Peter Norvig"
+      ],
+      "publisher": "Prentice Hall",
+      "publishedDate": "2010",
+      "description": "Artificial intelligence: A Modern Approach, 3e,is ideal for one or two-semester, undergraduate or graduate-level courses in Artificial Intelligence. It is also a valuable resource for computer professionals, linguists, and cognitive scientists interested in artificial intelligence. The revision of this best-selling text offers the most comprehensive, up-to-date introduction to the theory and practice of artificial intelligence.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780136042594"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0136042597"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 1132,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "averageRating": 4.5,
+      "ratingsCount": 10,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=8jZBksh-bUMC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=8jZBksh-bUMC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=8jZBksh-bUMC&q=artificial+intelligence&dq=artificial+intelligence&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=8jZBksh-bUMC&dq=artificial+intelligence&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Artificial_Intelligence.html?hl=&id=8jZBksh-bUMC",
+      "id": "8jZBksh-bUMC"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "subtitle": "The Very Idea",
+      "authors": [
+        "John Haugeland"
+      ],
+      "publisher": "MIT Press",
+      "publishedDate": "1989-01-01",
+      "description": "Presented in non-technical terms, this book explores the relationship between human thinking and machine computing",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0262580950"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780262580953"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 287,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "averageRating": 4.5,
+      "ratingsCount": 2,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.0.1.0.preview.1",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=zLFSPdIuqKsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=zLFSPdIuqKsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=zLFSPdIuqKsC&printsec=frontcover&dq=artificial+intelligence&hl=&cd=2&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=zLFSPdIuqKsC&dq=artificial+intelligence&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Artificial_Intelligence.html?hl=&id=zLFSPdIuqKsC",
+      "id": "zLFSPdIuqKsC"
+    },
+    {
+      "title": "Paradigms of Artificial Intelligence Programming",
+      "subtitle": "Case Studies in Common Lisp",
+      "authors": [
+        "Peter Norvig"
+      ],
+      "publisher": "Morgan Kaufmann",
+      "publishedDate": "2014-06-28",
+      "description": "Paradigms of AI Programming is the first text to teach advanced Common Lisp techniques in the context of building major AI systems. By reconstructing authentic, complex AI programs using state-of-the-art Common Lisp, the book teaches students and professionals how to build and debug robust practical programs, while demonstrating superior programming style and important AI concepts. The author strongly emphasizes the practical performance issues involved in writing real working programs of significant size. Chapters on troubleshooting and efficiency are included, along with a discussion of the fundamentals of object-oriented programming and a description of the main CLOS functions. This volume is an excellent text for a course on AI programming, a useful supplement for general AI courses and an indispensable reference for the professional programmer.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780080571157"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0080571158"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 946,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "averageRating": 5,
+      "ratingsCount": 1,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "0.4.5.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=eH6jBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=eH6jBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=eH6jBQAAQBAJ&printsec=frontcover&dq=artificial+intelligence&hl=&cd=3&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=eH6jBQAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-eH6jBQAAQBAJ",
+      "id": "eH6jBQAAQBAJ"
+    },
+    {
+      "title": "Artificial Intelligence in Behavioral and Mental Health Care",
+      "authors": [
+        "David D. Luxton"
+      ],
+      "publisher": "Academic Press",
+      "publishedDate": "2015-09-10",
+      "description": "Artificial Intelligence in Behavioral and Mental Health Care summarizes recent advances in artificial intelligence as it applies to mental health clinical practice. Each chapter provides a technical description of the advance, review of application in clinical practice, and empirical data on clinical efficacy. In addition, each chapter includes a discussion of practical issues in clinical settings, ethical considerations, and limitations of use. The book encompasses AI based advances in decision-making, in assessment and treatment, in providing education to clients, robot assisted task completion, and the use of AI for research and data gathering. This book will be of use to mental health practitioners interested in learning about, or incorporating AI advances into their practice and for researchers interested in a comprehensive review of these advances in one source. Summarizes AI advances for use in mental health practice Includes advances in AI based decision-making and consultation Describes AI applications for assessment and treatment Details AI advances in robots for clinical settings Provides empirical data on clinical efficacy Explores practical issues of use in clinical settings",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780128007921"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0128007923"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 308,
+      "printType": "BOOK",
+      "categories": [
+        "Psychology"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.4.5.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=INvUBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=INvUBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=INvUBQAAQBAJ&printsec=frontcover&dq=artificial+intelligence&hl=&cd=4&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=INvUBQAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-INvUBQAAQBAJ",
+      "id": "INvUBQAAQBAJ"
+    },
+    {
+      "title": "Universal Artificial Intelligence",
+      "subtitle": "Sequential Decisions Based on Algorithmic Probability",
+      "authors": [
+        "Marcus Hutter"
+      ],
+      "publisher": "Springer Science & Business Media",
+      "publishedDate": "2006-01-17",
+      "description": "Personal motivation. The dream of creating artificial devices that reach or outperform human inteUigence is an old one. It is also one of the dreams of my youth, which have never left me. What makes this challenge so interesting? A solution would have enormous implications on our society, and there are reasons to believe that the AI problem can be solved in my expected lifetime. So, it's worth sticking to it for a lifetime, even if it takes 30 years or so to reap the benefits. The AI problem. The science of artificial intelligence (AI) may be defined as the construction of intelligent systems and their analysis. A natural definition of a system is anything that has an input and an output stream. Intelligence is more complicated. It can have many faces like creativity, solving prob lems, pattern recognition, classification, learning, induction, deduction, build ing analogies, optimization, surviving in an environment, language processing, and knowledge. A formal definition incorporating every aspect of intelligence, however, seems difficult. Most, if not all known facets of intelligence can be formulated as goal driven or, more precisely, as maximizing some utility func tion. It is, therefore, sufficient to study goal-driven AI; e. g. the (biological) goal of animals and humans is to survive and spread. The goal of AI systems should be to be useful to humans.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9783540268772"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "3540268774"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 278,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "1.4.1.0.preview.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=fhoonlqqGP8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=fhoonlqqGP8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=fhoonlqqGP8C&printsec=frontcover&dq=artificial+intelligence&hl=&cd=5&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=fhoonlqqGP8C&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-fhoonlqqGP8C",
+      "id": "fhoonlqqGP8C"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "authors": [
+        "Blay Whitby"
+      ],
+      "publisher": "The Rosen Publishing Group",
+      "publishedDate": "2009-01-01",
+      "description": "Introduces artificial intelligence, what it can do, myths about it, and ways it may expand in the future.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781435851658"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "143585165X"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 160,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Nonfiction"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.0.2.0.preview.3",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=oBK6mi7xBlIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=oBK6mi7xBlIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=oBK6mi7xBlIC&printsec=frontcover&dq=artificial+intelligence&hl=&cd=6&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=oBK6mi7xBlIC&dq=artificial+intelligence&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Artificial_Intelligence.html?hl=&id=oBK6mi7xBlIC",
+      "id": "oBK6mi7xBlIC"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "subtitle": "A New Synthesis",
+      "authors": [
+        "Nils J. Nilsson"
+      ],
+      "publisher": "Newnes",
+      "publishedDate": "1998-04-17",
+      "description": "Intelligent agents are employed as the central characters in this new introductory text. Beginning with elementary reactive agents, Nilsson gradually increases their cognitive horsepower to illustrate the most important and lasting ideas in AI. Neural networks, genetic programming, computer vision, heuristic search, knowledge representation and reasoning, Bayes networks, planning, and language understanding are each revealed through the growing capabilities of these agents. The book provides a refreshing and motivating new synthesis of the field by one of AI's master expositors and leading researchers. Artificial Intelligence: A New Synthesis takes the reader on a complete tour of this intriguing new world of AI. An evolutionary approach provides a unifying theme Thorough coverage of important AI ideas, old and new Frequent use of examples and illustrative diagrams Extensive coverage of machine learning methods throughout the text Citations to over 500 references Comprehensive index",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780080499451"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0080499457"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 513,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "1.1.2.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=lr1Po3DJZNIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=lr1Po3DJZNIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=lr1Po3DJZNIC&printsec=frontcover&dq=artificial+intelligence&hl=&cd=7&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=lr1Po3DJZNIC&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-lr1Po3DJZNIC",
+      "id": "lr1Po3DJZNIC"
+    },
+    {
+      "title": "A New Guide to Artificial Intelligence",
+      "authors": [
+        "Derek Partridge"
+      ],
+      "publisher": "Intellect Books",
+      "publishedDate": "1991",
+      "description": "Textbook includes both theories and programs, and covers all recognized AI work in sufficient detail to allow a critique from general concerns to be anchored, whenever possible, in the structure of specific AI programs. Annotation copyrighted by Book News, Inc., Portland, OR",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0893916072"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780893916077"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 546,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.2.3.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=ysvq6WBlJu0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=ysvq6WBlJu0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=ysvq6WBlJu0C&printsec=frontcover&dq=artificial+intelligence&hl=&cd=8&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=ysvq6WBlJu0C&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-ysvq6WBlJu0C",
+      "id": "ysvq6WBlJu0C"
+    },
+    {
+      "title": "Artificial Intelligence Programming",
+      "authors": [
+        "Eugene Charniak"
+      ],
+      "publisher": "Psychology Press",
+      "publishedDate": "1987",
+      "description": "Artificial intelligence research has thrived in the years since this best-selling AI classic was first published. The revision encompasses these advances by adapting its coding to Common Lisp, the well-documented language standard, and by bringing together even more useful programming tools. Today's programmers in AI will find this volume's superior coverage of programming techniques and easily applicable style anything but common.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0898596092"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780898596090"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 533,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "averageRating": 3,
+      "ratingsCount": 1,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.0.1.0.preview.1",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=Lpicvmzww3sC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=Lpicvmzww3sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=Lpicvmzww3sC&printsec=frontcover&dq=artificial+intelligence&hl=&cd=9&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=Lpicvmzww3sC&dq=artificial+intelligence&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Artificial_Intelligence_Programming.html?hl=&id=Lpicvmzww3sC",
+      "id": "Lpicvmzww3sC"
+    },
+    {
+      "title": "Artificial Intelligence: A Systems Approach",
+      "subtitle": "A Systems Approach",
+      "authors": [
+        "M. Tim Jones"
+      ],
+      "publisher": "Jones & Bartlett Learning",
+      "publishedDate": "2015-06-16",
+      "description": "This book offers students and AI programmers a new perspective on the study of artificial intelligence concepts. The essential topics and theory of AI are presented, but it also includes practical information on data input & reduction as well as data output (i.e., algorithm usage). Because traditional AI concepts such as pattern recognition, numerical optimization and data mining are now simply types of algorithms, a different approach is needed. This “sensor / algorithm / effecter” approach grounds the algorithms with an environment, helps students and AI practitioners to better understand them, and subsequently, how to apply them. The book has numerous up to date applications in game programming, intelligent agents, neural networks, artificial immune systems, and more. A CD-ROM with simulations, code, and figures accompanies the book.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "1449631150"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9781449631154"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "1.3.2.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=ekUHwvRP7nUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=ekUHwvRP7nUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=ekUHwvRP7nUC&printsec=frontcover&dq=artificial+intelligence&hl=&cd=10&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=ekUHwvRP7nUC&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-ekUHwvRP7nUC",
+      "id": "ekUHwvRP7nUC"
+    },
+    {
+      "title": "Artificial Intelligence and Integrated Intelligent Information Systems",
+      "subtitle": "Emerging Technologies and Applications",
+      "authors": [
+        "Xuan F. Zha"
+      ],
+      "publisher": "IGI Global",
+      "publishedDate": "2007",
+      "description": "Researchers in the evolving fields of artificial intelligence and information systems are constantly presented with new challenges. Artificial Intelligence and Integrated Intelligent Information Systems: Emerging Technologies and Applications provides both researchers and professionals with the latest knowledge applied to customized logic systems, agent-based approaches to modeling, and human-based models. Artificial Intelligence and Integrated Intelligent Information Systems: Emerging Technologies and Applications presents the recent advances in multi-mobile agent systems, the product development process, fuzzy logic systems, neural networks, and ambient intelligent environments among many other innovations in this exciting field.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781599042497"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1599042495"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 454,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "averageRating": 4,
+      "ratingsCount": 1,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=OECC3GyCXe8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=OECC3GyCXe8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=OECC3GyCXe8C&printsec=frontcover&dq=artificial+intelligence&hl=&cd=11&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=OECC3GyCXe8C&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-OECC3GyCXe8C",
+      "id": "OECC3GyCXe8C"
+    },
+    {
+      "title": "The Master Algorithm",
+      "subtitle": "How the Quest for the Ultimate Learning Machine Will Remake Our World",
+      "authors": [
+        "Pedro Domingos"
+      ],
+      "publisher": "Basic Books",
+      "publishedDate": "2015-09-22",
+      "description": "Algorithms increasingly run our lives. They find books, movies, jobs, and dates for us, manage our investments, and discover new drugs. More and more, these algorithms work by learning from the trails of data we leave in our newly digital world. Like curious children, they observe us, imitate, and experiment. And in the world’s top research labs and universities, the race is on to invent the ultimate learning algorithm: one capable of discovering any knowledge from data, and doing anything we want, before we even ask. Machine learning is the automation of discovery—the scientific method on steroids—that enables intelligent robots and computers to program themselves. No field of science today is more important yet more shrouded in mystery. Pedro Domingos, one of the field’s leading lights, lifts the veil for the first time to give us a peek inside the learning machines that power Google, Amazon, and your smartphone. He charts a course through machine learning’s five major schools of thought, showing how they turn ideas from neuroscience, evolution, psychology, physics, and statistics into algorithms ready to serve you. Step by step, he assembles a blueprint for the future universal learner—the Master Algorithm—and discusses what it means for you, and for the future of business, science, and society. If data-ism is today’s rising philosophy, this book will be its bible. The quest for universal learning is one of the most significant, fascinating, and revolutionary intellectual developments of all time. A groundbreaking book, The Master Algorithm is the essential guide for anyone and everyone wanting to understand not just how the revolution will happen, but how to be at its forefront.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780465061921"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0465061923"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": false
+      },
+      "pageCount": 352,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "averageRating": 3,
+      "ratingsCount": 1,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "1.9.10.0.preview.2",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=CPgqCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=CPgqCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=CPgqCgAAQBAJ&printsec=frontcover&dq=artificial+intelligence&hl=&cd=12&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=CPgqCgAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-CPgqCgAAQBAJ",
+      "id": "CPgqCgAAQBAJ"
+    },
+    {
+      "title": "Principles of Artificial Intelligence",
+      "authors": [
+        "Nils J. Nilsson"
+      ],
+      "publisher": "Springer Science & Business Media",
+      "publishedDate": "1982-05-01",
+      "description": "Previous treatments of Artificial Intelligence (AI) divide the subject into its major areas of application, namely, natural language processing, automatic programming, robotics, machine vision, automatic theorem proving, intelligent data retrieval systems, etc. The major difficulty with this approach is that these application areas are now so extensive, that each could, at best, be only superficially treated in a book of this length. Instead, I have attempted here to describe fundamental AI ideas that underlie many of these applications. My organization of these ideas is not, then, based on the subject matter of their application, but is, instead, based on general computational concepts involving the kinds of data structures used, the types of operations performed on these data struc tures, and the properties of con'trol strategies used by AI systems. I stress, in particular, the important roles played in AI by generalized production systems and the predicate calculus. The notes on which the book is based evolved in courses and seminars at Stanford University and at the University of Massachusetts at Amherst. Although certain topics treated in my previous book, Problem solving Methods in Artificial Intelligence, are covered here as well, this book contains many additional topics such as rule-based systems, robot problem-solving systems, and structured-object representations.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "3540113401"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9783540113409"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 476,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "averageRating": 5,
+      "ratingsCount": 2,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=4JwN5DTpcqkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=4JwN5DTpcqkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=4JwN5DTpcqkC&printsec=frontcover&dq=artificial+intelligence&hl=&cd=13&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=4JwN5DTpcqkC&dq=artificial+intelligence&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Principles_of_Artificial_Intelligence.html?hl=&id=4JwN5DTpcqkC",
+      "id": "4JwN5DTpcqkC"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "subtitle": "A Modern Approach",
+      "authors": [
+        "Stuart Jonathan Russell",
+        "Peter Norvig"
+      ],
+      "publishedDate": "1995",
+      "description": "A highly accessible, up-to-date professional reference for programmers, software engineers, system administrators, or technical managers, this book integrates state-of-the-art AI techniques into intelligent agent designs using examples and exercises to lead the reader from simple reactive agents to full knowledge-based agents with natural language capabilities.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0131038052"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780131038059"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 932,
+      "printType": "BOOK",
+      "categories": [
+        "Artificial intelligence"
+      ],
+      "averageRating": 4,
+      "ratingsCount": 1,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=CUVeMwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=CUVeMwAACAAJ&dq=artificial+intelligence&hl=&cd=14&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=CUVeMwAACAAJ&dq=artificial+intelligence&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Artificial_Intelligence.html?hl=&id=CUVeMwAACAAJ",
+      "id": "CUVeMwAACAAJ"
+    },
+    {
+      "title": "Reflections on Artificial Intelligence",
+      "authors": [
+        "Blay Whitby"
+      ],
+      "publisher": "Intellect Books",
+      "publishedDate": "1996",
+      "description": "\"The development of Artificial Intelligence has brought with it many new questions, not least the legal, moral and ethical implications of the technology. This book not only looks at present-day answers to questions but offers much original material.\" \"Some of the material may seem controversial at present. Nevertheless, as the questions posed are tested in real life, the author believes many of the ideas may soon become the accepted wisdom.\" \"This book will interest those studying Information Technology, Artificial Intelligence, Cognitive Science, as well as Philosophy and Jurisprudence. In addition, the ideas are highly relevant to legal professionals who are likely to be involved in the implications of computer technology, now and in the future.\"--BOOK JACKET.Title Summary field provided by Blackwell North America, Inc. All Rights Reserved",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "1871516684"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9781871516685"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 127,
+      "printType": "BOOK",
+      "categories": [
+        "Technology & Engineering"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.0.3.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=OAErGiIR_aAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=OAErGiIR_aAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=OAErGiIR_aAC&printsec=frontcover&dq=artificial+intelligence&hl=&cd=15&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=OAErGiIR_aAC&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-OAErGiIR_aAC",
+      "id": "OAErGiIR_aAC"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "authors": [
+        "Fellow the Stanford Center for Legal Informatics Jerry Kaplan",
+        "Jerry Kaplan"
+      ],
+      "publisher": "Oxford University Press",
+      "publishedDate": "2016-01-25",
+      "description": "Over the coming decades, Artificial Intelligence will profoundly impact the way we live, work, wage war, play, seek a mate, educate our young, and care for our elderly. It is likely to greatly increase our aggregate wealth, but it will also upend our labor markets, reshuffle our social order, and strain our private and public institutions. Eventually it may alter how we see our place in the universe, as machines pursue goals independent of their creators and outperform us in domains previously believed to be the sole dominion of humans. Whether we regard them as conscious or unwitting, revere them as a new form of life or dismiss them as mere clever appliances, is beside the point. They are likely to play an increasingly critical and intimate role in many aspects of our lives. The emergence of systems capable of independent reasoning and action raises serious questions about just whose interests they are permitted to serve, and what limits our society should place on their creation and use. Deep ethical questions that have bedeviled philosophers for ages will suddenly arrive on the steps of our courthouses. Can a machine be held accountable for its actions? Should intelligent systems enjoy independent rights and responsibilities, or are they simple property? Who should be held responsible when a self-driving car kills a pedestrian? Can your personal robot hold your place in line, or be compelled to testify against you? If it turns out to be possible to upload your mind into a machine, is that still you? The answers may surprise you.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780190602383"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0190602384"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 192,
+      "printType": "BOOK",
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.1.0.0.preview.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=7y_KDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=7y_KDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=7y_KDAAAQBAJ&printsec=frontcover&dq=artificial+intelligence&hl=&cd=16&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=7y_KDAAAQBAJ&dq=artificial+intelligence&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Artificial_Intelligence.html?hl=&id=7y_KDAAAQBAJ",
+      "id": "7y_KDAAAQBAJ"
+    },
+    {
+      "title": "Artificial Intelligence and Business Management",
+      "authors": [
+        "Derek Partridge",
+        "Khateeb M. Hussain"
+      ],
+      "publisher": "Intellect Books",
+      "publishedDate": "1992",
+      "description": "After introducing the concept of artificial intelligence (AI), the authors of this text discuss the scope and limitations of AI technology in the various subfields that are expected to be relevant to business management systems - natural language processing, voice processing, image processing, and intelligent robots.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0893918350"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780893918354"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 343,
+      "printType": "BOOK",
+      "categories": [
+        "Business & Economics"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.1.4.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=3_zkZYwj43sC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=3_zkZYwj43sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=3_zkZYwj43sC&printsec=frontcover&dq=artificial+intelligence&hl=&cd=17&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=3_zkZYwj43sC&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-3_zkZYwj43sC",
+      "id": "3_zkZYwj43sC"
+    },
+    {
+      "title": "Artificial Intelligence in Education",
+      "subtitle": "Building Technology Rich Learning Contexts that Work",
+      "authors": [
+        "Rosemary Luckin",
+        "Kenneth R. Koedinger",
+        "Jim E. Greer"
+      ],
+      "publisher": "IOS Press",
+      "publishedDate": "2007-01-01",
+      "description": "\" The nature of technology has changed since Artificial Intelligence in Education (AIED) was conceptualised as a research community and Interactive Learning Environments were initially developed. Technology is smaller, more mobile, networked, pervasive and often ubiquitous as well as being provided by the standard desktop PC. This creates the potential for technology supported learning wherever and whenever learners need and want it. However, in order to take advantage of this potential for greater flexibility we need to understand and model learners and the contexts with which they interact in a manner that enables us to design, deploy and evaluate technology to most effectively support learning across multiple locations, subjects and times. The AIED community has much to contribute to this endeavour. This publication contains papers, posters and tutorials from the 2007 Artificial Intelligence in Education conference in Los Angeles, CA, USA. \"",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781586037642"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1586037641"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 738,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=GEK93NUHdXYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=GEK93NUHdXYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=GEK93NUHdXYC&printsec=frontcover&dq=artificial+intelligence&hl=&cd=18&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=GEK93NUHdXYC&dq=artificial+intelligence&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Artificial_Intelligence_in_Education.html?hl=&id=GEK93NUHdXYC",
+      "id": "GEK93NUHdXYC"
+    },
+    {
+      "title": "Advanced Artificial Intelligence",
+      "authors": [
+        "Zhongzhi Shi"
+      ],
+      "publisher": "World Scientific",
+      "publishedDate": "2011",
+      "description": "'Advanced Artificial Intelligence' consists of 16 chapters. The content of the book is novel, reflects the research updates in this field, and especially summarises the author's scientific efforts over many years.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9789814291347"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "981429134X"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 613,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=wNbMOoTuGU0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=wNbMOoTuGU0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=wNbMOoTuGU0C&printsec=frontcover&dq=artificial+intelligence&hl=&cd=19&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=wNbMOoTuGU0C&dq=artificial+intelligence&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Advanced_Artificial_Intelligence.html?hl=&id=wNbMOoTuGU0C",
+      "id": "wNbMOoTuGU0C"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "authors": [
+        "Rajiv Chopra"
+      ],
+      "publisher": "S. Chand Publishing",
+      "publishedDate": "2012",
+      "description": "For the students of B.E./B.Tech Computer Science Engineering and Information Technology (CSE/IT)",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9788121939485"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "8121939488"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 318,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "averageRating": 3,
+      "ratingsCount": 3,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "0.2.0.0.preview.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=DDNHzcN6jasC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=DDNHzcN6jasC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=DDNHzcN6jasC&printsec=frontcover&dq=artificial+intelligence&hl=&cd=20&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=DDNHzcN6jasC&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-DDNHzcN6jasC",
+      "id": "DDNHzcN6jasC"
+    }
+  ]
+}
