@@ -1,5 +1,5 @@
 import React from 'react';
-import { navigateTo } from './helpers';
+import { Link } from 'react-router-dom';
 import searchIcon from './icons/search.svg';
 import * as BooksAPI from './BooksAPI';
 import Shelf from './Shelf';
@@ -67,9 +67,9 @@ export default class Main extends React.Component {
         </div>
 
         <div className='open-search'>
-          <a onClick={() => navigateTo('/search')}>
+          <Link to='/search'>
             <img alt='Search' src={searchIcon} />
-          </a>
+          </Link>
         </div>
       </div>
     );
