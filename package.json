@@ -1,7 +1,7 @@
 {
   "name": "my-reads",
-  "license": "unlicensed",
   "version": "1.0.0",
+  "homepage": "https://paulkoegel-wessels.github.io/myreads",
   "dependencies": {
     "lodash.debounce": "^4.0.8",
     "prop-types": "^15.5.8",
@@ -14,12 +14,15 @@
     "eslint": "^4.19.1",
     "eslint-config-semistandard-react": "^4.2.0",
     "eslint-plugin-semistandard-react": "^4.1.0",
+    "gh-pages": "^1.1.0",
     "react-scripts": "0.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "yarn gh-pages -d build"
   }
 }
