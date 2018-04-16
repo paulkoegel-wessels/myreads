@@ -20,7 +20,7 @@ const SHELVES = [
 
 export default class Main extends React.Component {
   render () {
-    const { myBooks, onShelfChange } = this.props;
+    const { isLoading, myBooks, onShelfChange } = this.props;
 
     return (
       <div className='list-books'>
@@ -32,7 +32,7 @@ export default class Main extends React.Component {
           <div>
             { SHELVES.map(shelf => {
               const booksForShelf = myBooks.filter(book => book.shelf === shelf.slug);
-              return <Shelf books={booksForShelf} key={shelf.slug} onShelfChange={onShelfChange} shelf={shelf} />;
+              return <Shelf books={booksForShelf} isLoading={isLoading} key={shelf.slug} onShelfChange={onShelfChange} shelf={shelf} />;
             })}
           </div>
         </div>

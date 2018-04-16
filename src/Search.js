@@ -12,16 +12,6 @@ export default class Search extends React.Component {
     searchTerm: ''
   };
 
-  constructor (props) {
-    super(props);
-    this.inputRef = React.createRef();
-  }
-
-  componentDidMount () {
-    // auto-focus search field
-    this.inputRef.current.focus();
-  }
-
   handleSearchTermChange = event => {
     const searchTerm = event.target.value;
     this.setState(state => ({
@@ -31,12 +21,12 @@ export default class Search extends React.Component {
     this.searchBooks(searchTerm);
   }
 
-  enrichResponseWithMyBooksData = responseBooks => {
-    return responseBooks.map(book => {
-      const myBook = this.props.myBooks.find(myBook => myBook.id === book.id);
+  mergeBooksData = (myBooks, searchResults) => {
+    return searchResults.map(resultBook => {
+      const myBook = this.props.myBooks.find(myBook => myBook.id === resultBook.id);
       const shelf = myBook ? myBook.shelf : 'none';
       return {
-        ...book,
+        ...resultBook,
         shelf
       };
     });
@@ -53,7 +43,7 @@ export default class Search extends React.Component {
         this.setState(state => ({
           error: null,
           isSearching: false,
-          searchResults: this.enrichResponseWithMyBooksData(response)
+          searchResults: response
         }));
       } else {
         this.setState(state => ({
@@ -62,37 +52,44 @@ export default class Search extends React.Component {
         }));
       }
     });
-  }, 300);
+  }, 500);
 
   render () {
     const { error, isSearching, searchResults, searchTerm } = this.state;
-    const { onAddBookToMyBooks, onShelfChange } = this.props;
+    const { isLoading, myBooks, onAddNewBookToMyBooks, onShelfChange } = this.props;
+    const books = this.mergeBooksData(myBooks, searchResults);
+
     return (
-      <div className='search-books'>
-        <div className='search-books-bar'>
-          <Link className='close-search' to='/'>Close</Link>
-          <div className='search-books-input-wrapper'>
-            <input
-              onChange={this.handleSearchTermChange}
-              placeholder='Search by title or author'
-              ref={this.inputRef}
-              type='text'
-              value={searchTerm} />
+      isLoading
+        ? <h3 style={{ textAlign: 'center' }}>Loading shelf data...</h3>
+        : <div className='search-books'>
+          <div className='search-books-bar'>
+            <Link className='close-search' to='/'>Close</Link>
+            <div className='search-books-input-wrapper'>
+              <input
+                onChange={this.handleSearchTermChange}
+                placeholder='Search by title or author'
+                autoFocus
+                type='text'
+                value={searchTerm} />
+            </div>
+          </div>
+          <div className='search-books-results'>
+            { isSearching
+              ? <h3 style={{ textAlign: 'center' }}>Searching...</h3>
+              : error
+                ? <div style={{ textAlign: 'center' }}>
+                    No results.
+                  <p>(Message from server: {error})</p>
+                </div>
+                : <ol className='books-grid'>
+                  { books.map(book =>
+                    <Book book={book} key={book.id} onShelfChange={book.shelf !== 'none' ? onShelfChange : onAddNewBookToMyBooks(book)} />
+                  )}
+                </ol>
+            }
           </div>
         </div>
-        <div className='search-books-results'>
-          { isSearching
-            ? <h3 style={{ margin: '0 auto' }}>Searching...</h3>
-            : error
-              ? `No results. (Error message from server: ${error})`
-              : <ol className='books-grid'>
-                { searchResults.map(book =>
-                  <Book book={book} key={book.id} onShelfChange={book.shelf !== 'none' ? onShelfChange : onAddBookToMyBooks(book)} />
-                )}
-              </ol>
-          }
-        </div>
-      </div>
     );
   }
 }
